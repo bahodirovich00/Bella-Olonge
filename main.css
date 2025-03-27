@@ -13,7 +13,7 @@
 }
 
 menu {
-    width: 1300px;
+    width: 1100px;
     height: 100px;
     display: flex;
     justify-content: space-between;
@@ -99,4 +99,26 @@ header button.btn-appstore:hover {
     background-color: coral;
     border-color: coral;
     box-shadow: 0 0 5px 1px coral;
+}
+
+header .phones img {
+    position: absolute;
+    z-index: 1;
+}
+
+header .phones img:first-child {
+    width: 20%;
+    right: 49%;
+    top: 36rem;
+}
+
+header .phones img:last-child {
+    width: 20%;
+    top: 40rem;
+    left: 50%;
+}
+
+section-2 {
+    margin-top: 2rem;
+    height: 100vh;
 }
