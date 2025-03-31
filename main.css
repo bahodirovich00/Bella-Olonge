@@ -118,7 +118,164 @@ header .phones img:last-child {
     left: 50%;
 }
 
-section-2 {
+.process {
+    margin-top: 35rem;
+    height: min-content;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.process .border {
+    display: block;
+    height: 2px;
+    width: 600px;
+    margin: 4rem auto;
+    background-color: #ccc;
+}
+
+.first-step {
+    display: flex;
+}
+
+.first-step img {
+    width: 50%;
+}
+
+.process p.name {
+    color: #FA4A0C;
+    font-weight: 700;
+    font-size: 22px;
+    margin-bottom: 2rem;
+}
+
+.first-step p {
+    font-size: 20px;
+    color: grey;
+    font-weight: 500;
+    margin-top: 3rem;
+    word-wrap: break-word;
+    width: 400px;
+    line-height: 2rem;
+}
+
+.first-step h1 {
+    font-size: 38px;
+}
+
+.first-step div {
+    text-align: left;
+    margin-top: 11rem;
+}
+
+.second-step {
+    display: flex;
+}
+
+.second-step img {
+    width: 50%;
+    margin-top: -10rem;
+    margin-right: -6rem;
+}
+
+.second-step div {
+    text-align: left;
+    word-wrap: break-word;
+    margin-left: 6rem;
     margin-top: 2rem;
-    height: 100vh;
+}
+
+.second-step h1 {
+    font-size: 38px;
+}
+
+.second-step p {
+    font-size: 20px;
+    color: grey;
+    font-weight: 500;
+    margin-top: 3rem;
+    word-wrap: break-word;
+    width: 400px;
+    line-height: 2rem;
+}
+
+.third-step {
+    display: flex;
+}
+
+.third-step img {
+    width: 50%;
+    margin-left: -2rem;
+    margin-top: -8rem;
+}
+
+.third-step div {
+    width: 50%;
+    text-align: left;
+    word-wrap: break-word;
+    margin-top: 3rem;
+}
+
+.third-step h1 {
+    font-size: 38px;
+}
+
+.third-step p {
+    font-size: 20px;
+    color: grey;
+    font-weight: 500;
+    margin-top: 3rem;
+    word-wrap: break-word;
+    width: 400px;
+    line-height: 2rem;
+}
+
+.getting-app {
+    height: 500px;
+    width: 100%;
+    text-align: center;
+    background-image: url(./images/getting-app-bg.png);
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+.getting-app h1 {
+    font-size: 38px;
+}
+
+.getting-app p {
+    font-size: 22px;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+.getting-app button {
+    padding: 1rem 4rem;
+    border-radius: 15px;
+    border: 1px solid #fff;
+    background: transparent;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    box-shadow: 0px 0px 5px 1px coral;
+  }
+  
+.getting-app button.btn-playstore {
+    background-color: coral;
+    border-color: coral;
+    margin-right: 1.5rem;
+}
+
+.getting-app .btn-appstore {
+    box-shadow: 0 0 5px 1px #fff;
+}
+  
+.getting-app button.btn-appstore:hover {
+    background-color: coral;
+    border-color: coral;
+    box-shadow: 0 0 5px 1px coral;
 }
